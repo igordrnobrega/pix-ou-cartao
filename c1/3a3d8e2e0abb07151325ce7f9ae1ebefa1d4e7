@@ -1,0 +1,19 @@
+README.md
+  s_ba970ebf0d329b::t_c0e7e84f1842dd 7-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c13a3d8e2e0abb07151325ce7f9ae1ebefa1d4e7",
+  "prompts": {},
+  "sessions": {
+    "s_ba970ebf0d329b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8fff2a25-08ea-41bc-81cf-6cec982e759a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Igor Nóbrega <igordouradonobrega@gmail.com>"
+    }
+  }
+}
