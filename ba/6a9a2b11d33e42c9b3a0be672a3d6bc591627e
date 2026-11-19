@@ -1,0 +1,179 @@
+src/calc.ts
+  s_ba970ebf0d329b::t_c1615403ed42e3 35,60-63
+  s_ba970ebf0d329b::t_484fa67176d498 64
+  s_ba970ebf0d329b::t_0ba71a231a08ad 30-31
+  s_ba970ebf0d329b::t_195ccce8d701b9 36,43,55,66,76,85,89,93,100,109,111-125,128,187
+  s_ba970ebf0d329b::t_6154e72a851cdc 159,164-165,170,172,174-177,186
+  s_ba970ebf0d329b::t_b1b02cda659182 32-34
+  s_ba970ebf0d329b::t_8a5f9bffa0ee86 147,154,158,162
+  s_ba970ebf0d329b::t_128fc179ae6446 107,148-153,155-157,160,167-169,171,173,178-184
+  s_ba970ebf0d329b::t_8521fdee6a4efc 27-29
+  s_ba970ebf0d329b::t_b646fb2e055fa5 37-42
+  s_ba970ebf0d329b::t_6610c88efa2b84 44-46,52-54
+  s_ba970ebf0d329b::t_8c109d955d65d1 56-59
+  s_ba970ebf0d329b::t_228c647753553d 65
+  s_ba970ebf0d329b::t_7015efc380f90a 67-69,73-75
+  s_ba970ebf0d329b::t_9fa3da06c69b49 77-79,82-84
+  s_ba970ebf0d329b::t_4874b221a5225b 86-88
+  s_ba970ebf0d329b::t_776b519bd211dc 90-92
+  s_ba970ebf0d329b::t_db89e1011c3a0d 94-99
+  s_ba970ebf0d329b::t_3cbfed69eb344b 101-106
+  s_ba970ebf0d329b::t_3ef7c28828c582 108
+  s_ba970ebf0d329b::t_d4936e3ffc8ca4 110
+  s_ba970ebf0d329b::t_fa7a5ad6be5fe4 126-127
+  s_ba970ebf0d329b::t_d85c50cbd3c3d2 129-131,144-146
+  s_ba970ebf0d329b::t_d61ecdd9490a9e 161
+  s_ba970ebf0d329b::t_744f72f679ee58 163
+  s_ba970ebf0d329b::t_8c7d2f3fd162cd 166
+  s_ba970ebf0d329b::t_5329eba1469cf8 185
+src/calc.test.ts
+  s_ba970ebf0d329b::t_799420ad6cc2d4 14-15,91,114,121
+  s_ba970ebf0d329b::t_2b81abfc29bfbb 1-13,16-75,88-89,96-97,104-106,110-113,115-116,118-120,122-144
+  s_ba970ebf0d329b::t_b7f19f37ffcd7e 117
+  s_ba970ebf0d329b::t_7431fb2be034ff 76,78-80,82,85-87,92
+  s_ba970ebf0d329b::t_2dcbbddb957ce8 90,93-95,98,102-103
+  s_ba970ebf0d329b::t_8fb8c60aefac7e 99-101
+  s_ba970ebf0d329b::t_fa2ddd055c55be 77,81,83-84
+  s_ba970ebf0d329b::t_5f994d691dc77f 107-109
+README.md
+  s_ba970ebf0d329b::t_28c86d2c670595 1-35
+src/style.css
+  s_ba970ebf0d329b::t_7ced788f7e9fd4 82-97
+  s_ba970ebf0d329b::t_0afa427d2e1e29 37,46,56-57,70,72,125,138,142,144,154,160,165-166,171,175-185,200,210,227,242,248,252,258,262-263,275,279,285,332
+  s_ba970ebf0d329b::t_d76577ab17c24e 16,29-30,34,40,48,53,58,66,74,79,98,110,116,122,127,132,139,145,157,162,168,186,191,197,203,213,217,224,230,239,245,253,259,266,272,276,282,286,288-329,334
+  s_ba970ebf0d329b::t_cc07d11bf3aec0 13-15
+  s_ba970ebf0d329b::t_3bcf35f8b45ca2 17-19,26-28
+  s_ba970ebf0d329b::t_ce9fbea9d76a92 31-33
+  s_ba970ebf0d329b::t_bce99ef07ea6a6 35-36
+  s_ba970ebf0d329b::t_caa9ef1e0a9c3e 38-39
+  s_ba970ebf0d329b::t_edfe5733b7ed31 41-45
+  s_ba970ebf0d329b::t_69642b0f2e250d 47
+  s_ba970ebf0d329b::t_236550524f81b0 49-52
+  s_ba970ebf0d329b::t_41a19ad74d5e40 54-55
+  s_ba970ebf0d329b::t_5a6d21342cd039 59-61,63-65
+  s_ba970ebf0d329b::t_546ebae31eab7e 67-69
+  s_ba970ebf0d329b::t_3eeb6413f73d47 71
+  s_ba970ebf0d329b::t_7f1064164fbac2 73
+  s_ba970ebf0d329b::t_6de832c57b28a6 75-78
+  s_ba970ebf0d329b::t_058c8344671705 80-81
+  s_ba970ebf0d329b::t_b04c37706ac7e2 99-101,107-109
+  s_ba970ebf0d329b::t_ca5ca303ee6855 111-115
+  s_ba970ebf0d329b::t_4c003dfb86f2b1 117-121
+  s_ba970ebf0d329b::t_d865ed6f5d207c 123-124
+  s_ba970ebf0d329b::t_4ee7ec8a34dc8f 126
+  s_ba970ebf0d329b::t_9c74eecc0b0fba 128-131
+  s_ba970ebf0d329b::t_0fe33f6ba27db7 133-137
+  s_ba970ebf0d329b::t_26e1eaf9734e1c 140-141
+  s_ba970ebf0d329b::t_10f1d7ec7a9664 143
+  s_ba970ebf0d329b::t_511b82de696c33 146-148,151-153
+  s_ba970ebf0d329b::t_c1aedc6ced7429 155-156
+  s_ba970ebf0d329b::t_1a84d997fc7838 158-159
+  s_ba970ebf0d329b::t_d461952d2c6167 161
+  s_ba970ebf0d329b::t_979cbdcfbe9593 163-164
+  s_ba970ebf0d329b::t_35a1da1e0e8bd9 167
+  s_ba970ebf0d329b::t_006e211e0326ac 169-170
+  s_ba970ebf0d329b::t_b870e8b9378c09 172-174
+  s_ba970ebf0d329b::t_896b4f756f11ce 187-190
+  s_ba970ebf0d329b::t_184179774f4917 192-196
+  s_ba970ebf0d329b::t_bb0ced90b7dd4c 198-199
+  s_ba970ebf0d329b::t_a6417e8cb4531d 201-202
+  s_ba970ebf0d329b::t_0c3089d86f8669 204-209
+  s_ba970ebf0d329b::t_60265a405c386f 211-212
+  s_ba970ebf0d329b::t_bee7fc117380ed 214-216
+  s_ba970ebf0d329b::t_3545c5baaad30e 218-223
+  s_ba970ebf0d329b::t_43e3c6c5044f5a 225-226
+  s_ba970ebf0d329b::t_a5ee406c582fba 228-229
+  s_ba970ebf0d329b::t_f40fd7b0812a7c 231-233,236-238
+  s_ba970ebf0d329b::t_92f59dbdcefca2 240-241
+  s_ba970ebf0d329b::t_7287017bfc8bc6 243-244
+  s_ba970ebf0d329b::t_6b45b6d32cfc56 246-247
+  s_ba970ebf0d329b::t_9638ab6f1436c6 249-251
+  s_ba970ebf0d329b::t_599a731dd68289 254-257
+  s_ba970ebf0d329b::t_ebb1d1e15299ba 260-261
+  s_ba970ebf0d329b::t_468e8c40f0e2c8 264-265
+  s_ba970ebf0d329b::t_34381d639036f2 267-271
+  s_ba970ebf0d329b::t_14e143f4ef9336 273-274
+  s_ba970ebf0d329b::t_2ece84024b1529 277-278
+  s_ba970ebf0d329b::t_7f650845732d43 280-281
+  s_ba970ebf0d329b::t_010c037661b14e 283-284
+  s_ba970ebf0d329b::t_5109d0e1f68400 287
+  s_ba970ebf0d329b::t_a23ac556091641 330-331
+  s_ba970ebf0d329b::t_35b5f1d48defb3 333
+index.html
+  s_ba970ebf0d329b::t_78fc6f6c26697b 67-74,93,96
+  s_ba970ebf0d329b::t_4a3b7483752f17 46-47
+  s_ba970ebf0d329b::t_7ba37ddf8bed48 89-91
+  s_ba970ebf0d329b::t_976b420248bbe3 20-45,48,55-63,65,75-87
+  s_ba970ebf0d329b::t_6020439315f0fd 97
+  s_ba970ebf0d329b::t_f80a069d34eebd 113,119
+  s_ba970ebf0d329b::t_e885a06f3e967e 112,114-118,120-121
+  s_ba970ebf0d329b::t_38a43703c5f28e 17-19
+  s_ba970ebf0d329b::t_be0c761819571d 49-54
+  s_ba970ebf0d329b::t_b807a56f8194d9 64
+  s_ba970ebf0d329b::t_de561582715112 66
+  s_ba970ebf0d329b::t_ffe70d24eace09 88
+  s_ba970ebf0d329b::t_e66c184206948f 92
+  s_ba970ebf0d329b::t_4957fb26925aff 94-95
+  s_ba970ebf0d329b::t_1c99b02e1d882d 98-100,109-111
+  s_ba970ebf0d329b::t_ab6e9351762381 122-124
+src/main.ts
+  s_ba970ebf0d329b::t_77a53a5dd66675 11,29,66,78,147-170,186-189
+  s_ba970ebf0d329b::t_3139aa8007f8e5 179,225-227
+  s_ba970ebf0d329b::t_1551c8bbe0f369 193
+  s_ba970ebf0d329b::t_251e6471f47c2d 106,116-144
+  s_ba970ebf0d329b::t_f1864606bfa824 32
+  s_ba970ebf0d329b::t_7ea5aa91787472 38-53
+  s_ba970ebf0d329b::t_c51ea69b81232f 56,109,184,202-219,223
+  s_ba970ebf0d329b::t_f80a069d34eebd 12,30,67,79
+  s_ba970ebf0d329b::t_fcc81a1d76c31b 8-10
+  s_ba970ebf0d329b::t_6db5ef7ad512d7 13-15,26-28
+  s_ba970ebf0d329b::t_dc229d08b93d24 31
+  s_ba970ebf0d329b::t_3eb84d55be1a8b 33-37
+  s_ba970ebf0d329b::t_5b551765d0c206 54-55
+  s_ba970ebf0d329b::t_e5cdf291f35b40 57-59,63-65
+  s_ba970ebf0d329b::t_22ca598bfa5bc5 68-70,75-77
+  s_ba970ebf0d329b::t_15ba52787951b9 80-82,103-105
+  s_ba970ebf0d329b::t_5e451665301d06 107-108
+  s_ba970ebf0d329b::t_f38c150a0d54e6 110-115
+  s_ba970ebf0d329b::t_53d30c49514949 145-146
+  s_ba970ebf0d329b::t_01c1bff95ac5ae 171-173,176-178
+  s_ba970ebf0d329b::t_dca6484aa13db4 180-183
+  s_ba970ebf0d329b::t_a4cf5a4e1cf099 185
+  s_ba970ebf0d329b::t_c98ac6b612f4e6 190-192
+  s_ba970ebf0d329b::t_bbabc508e7e3b7 194-196,199-201
+  s_ba970ebf0d329b::t_5da93d6ffe210f 220-222
+  s_ba970ebf0d329b::t_0799ef45c51432 224
+  s_ba970ebf0d329b::t_716621b60a755d 228
+.github/dependabot.yml
+  s_ba970ebf0d329b::t_bd81c3cea4b155 1-34
+.github/workflows/ci.yml
+  s_ba970ebf0d329b::t_4391fcce8a66a8 1-80
+.gitignore
+  s_ba970ebf0d329b::t_c42c7a1d1a4abe 1-4
+docker-compose.yml
+  s_ba970ebf0d329b::t_cb6c894c9d92a3 1-9
+package-lock.json
+  s_ba970ebf0d329b::t_cd0a58296e123d 1-1585
+package.json
+  s_ba970ebf0d329b::t_b42ebb425a7286 1-17
+tsconfig.json
+  s_ba970ebf0d329b::t_b698d48a91f6d9 1-17
+vite.config.ts
+  s_ba970ebf0d329b::t_b8a55de68997da 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ba6a9a2b11d33e42c9b3a0be672a3d6bc591627e",
+  "prompts": {},
+  "sessions": {
+    "s_ba970ebf0d329b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8fff2a25-08ea-41bc-81cf-6cec982e759a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Igor Nóbrega <igordouradonobrega@gmail.com>"
+    }
+  }
+}
