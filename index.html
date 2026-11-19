@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Everything is same-origin. 'unsafe-inline' styles and ws: are for Vite's dev server (HMR). -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' ws: wss:; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <meta name="description" content="PIX com desconto ou cartão parcelado com cashback? Compare pelo custo de hoje." />
+    <title>PIX ou Cartão</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1>PIX ou Cartão?</h1>
+        <p>PIX com desconto ou cartão parcelado com cashback? Compara pelo custo de hoje.</p>
+      </header>
+
+      <form id="form" class="form" autocomplete="off" novalidate>
+        <fieldset>
+          <legend>Compra</legend>
+          <label class="field">
+            <span>Preço no cartão (R$)</span>
+            <input id="precoCartao" inputmode="decimal" enterkeyhint="next" placeholder="1.000,00" />
+          </label>
+          <div class="row">
+            <label class="field">
+              <span>Preço no PIX (R$)</span>
+              <input id="precoPix" inputmode="decimal" enterkeyhint="next" placeholder="950,00" />
+            </label>
+            <label class="field">
+              <span>ou desconto (%)</span>
+              <input id="descontoPix" inputmode="decimal" enterkeyhint="next" placeholder="5" />
+            </label>
+          </div>
+          <div class="row">
+            <label class="field">
+              <span>Parcelas sem juros</span>
+              <input id="parcelas" type="number" inputmode="numeric" enterkeyhint="next" min="1" max="24" step="1" value="10" />
+            </label>
+            <label class="field">
+              <span>Desconto do app (R$)</span>
+              <input id="descontoAntecipacao" inputmode="decimal" enterkeyhint="done" placeholder="estimado" />
+            </label>
+          </div>
+        </fieldset>
+
+        <details class="settings" id="settings">
+          <summary>Cartão e rendimento</summary>
+          <div class="row">
+            <label class="field">
+              <span>Cashback (%)</span>
+              <input id="cashbackPct" inputmode="decimal" enterkeyhint="done" />
+            </label>
+            <label class="field">
+              <span>Cashback chega</span>
+              <select id="cashbackQuando">
+                <option value="parcela">a cada fatura</option>
+                <option value="compra">na compra</option>
+              </select>
+            </label>
+          </div>
+          <label class="field">
+            <span>Taxa da antecipação (% a.a.)</span>
+            <input id="taxaAntecipacaoAnual" inputmode="decimal" enterkeyhint="done" />
+          </label>
+          <p class="note">
+            Estima o desconto de antecipar trazendo cada parcela para a 1ª fatura a essa taxa. Se o app mostrar outro
+            valor, digite-o em "Desconto do app".
+          </p>
+          <div class="row three">
+            <label class="field">
+              <span>CDI (% a.a.)</span>
+              <input id="cdiAnual" inputmode="decimal" enterkeyhint="done" />
+            </label>
+            <label class="field">
+              <span>% do CDI</span>
+              <input id="pctCdi" inputmode="decimal" enterkeyhint="done" />
+            </label>
+            <label class="field">
+              <span>1ª fatura (dias)</span>
+              <input id="diasPrimeiraFatura" type="number" inputmode="numeric" enterkeyhint="done" min="0" max="60" step="1" />
+            </label>
+          </div>
+          <label class="check">
+            <input id="mostrarParcelado" type="checkbox" /> Mostrar também o cartão sem antecipar (parcelas rendendo)
+          </label>
+          <label class="check"><input id="descontarIR" type="checkbox" /> Descontar IR do rendimento (tabela regressiva)</label>
+          <p class="note">
+            Use o CDI bruto. O app do Nu mostra o rendimento já sem IR (13,65% bruto vira 10,58% líquido com 22,5% de
+            IR); se informar o valor líquido, desmarque o IR.
+          </p>
+          <label class="check"><input id="salvar" type="checkbox" /> Salvar estas opções neste navegador</label>
+          <button type="button" id="reset" class="link">Restaurar padrões</button>
+        </details>
+      </form>
+
+      <section id="result" class="result" aria-live="polite"></section>
+
+      <details class="how">
+        <summary>Como a conta é feita</summary>
+        <p>
+          Cada opção vira um <strong>custo hoje</strong>: quanto você precisaria separar agora, aplicado no seu
+          rendimento, para pagar tudo nas datas certas. O cashback abate pelo mesmo critério. Ganha o menor custo hoje.
+        </p>
+        <ul>
+          <li><strong>PIX</strong>: paga o preço do PIX agora.</li>
+          <li>
+            <strong>Cartão, antecipando</strong>: parcela no cartão e antecipa todas as parcelas no app,
+            pagando o preço menos o desconto na 1ª fatura. Sem valor do app, o desconto é estimado trazendo cada parcela
+            para a data da 1ª fatura à taxa da antecipação (padrão 10,58% a.a.). O cashback é considerado sobre o preço
+            cheio.
+          </li>
+          <li>
+            <strong>Cartão, sem antecipar</strong> (só com a opção "Mostrar também" marcada): cada parcela sai numa fatura (a 1ª nos dias
+            informados, as demais a cada 30 dias) e o dinheiro rende até lá.
+          </li>
+        </ul>
+        <p>
+          Os padrões refletem o Ultravioleta em nov/2026 (cashback de 1,25%, CDI de 13,65% a.a.). Confira no app e
+          ajuste se mudar.
+        </p>
+      </details>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

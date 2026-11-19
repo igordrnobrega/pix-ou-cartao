@@ -1,0 +1,9 @@
+services:
+  node:
+    image: node:24-alpine
+    working_dir: /app
+    ports:
+      - '5174:5174'
+    volumes:
+      - .:/app
+    command: npm run dev -- --host 0.0.0.0 --port 5174
