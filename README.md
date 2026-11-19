@@ -4,6 +4,8 @@ Calculadora para decidir entre pagar no PIX com desconto ou no cartão parcelado
 (cashback e desconto por antecipar as parcelas).
 Pensada para o Nubank Ultravioleta, mas os parâmetros são editáveis.
 
+**Use online:** https://pix-ou-cartao.nobrega.page/ (GitHub Pages, publicado a cada push na `main`).
+
 Tudo roda no navegador; nada é enviado a lugar nenhum.
 
 ## Como a conta funciona
